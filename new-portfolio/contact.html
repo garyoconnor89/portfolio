@@ -67,87 +67,69 @@
       </div>
     </header>
     <!-- HERO END -->
-    <!-- ABOUT START -->
-    <section class="section" id="about">
-      <div class="section-title">
-        <h2>hello <span>world</span></h2>
-      </div>
-      <div class="section-center about-center">
-        <article class="about-img">
-          <img
-            src="./images/asdasd.JPG"
-            class="about-photo"
-            alt="beach heart"
+    <!-- CONTACT START -->
+
+    <section class="section contact" id="contact">
+      <div class="section-center contact-center">
+        <article class="contact-title">
+          <h3>want to get in touch?</h3>
+          <p>Complete the form below!</p>
+        </article>
+        <form class="contact-form">
+          <label for="email">Email address:</label>
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            placeholder="your email"
           />
-        </article>
-        <article class="about-info">
-          <h3>welcome</h3>
-          <p>
-            Hello and welcome to my very first attempt at making a website. The
-            pages should let you know a little more about myself, introduce you
-            to some of my work and give the opporunity to get in touch! Links to
-            other online platforms and content can be found below in the footer.
-            Enjoy!
-          </p>
-          <p>For a little more about me, please click the button below!</p>
-          <a href="/about.html" class="btn">about me</a>
-        </article>
+
+          <br />
+          <label for="firstName">First Name:</label>
+          <input
+            type="text"
+            name="firstName"
+            class="form-control"
+            placeholder="your first name"
+          />
+
+          <br />
+          <label for="lastName">Last Name:</label>
+          <input
+            type="text"
+            name="lastName"
+            class="form-control"
+            placeholder="your last name"
+          />
+          <br />
+          <label for="radio">Reason for contact:</label>
+          <br />
+          <input type="radio" id="question" name="question" />
+          <label for="question">I have a question</label>
+          <br />
+          <input type="radio" id="feedback" name="feedback" />
+          <label for="feedback">I have some feedback</label>
+          <br />
+          <input type="radio" id="other" name="other" />
+          <label for="other">I have a question</label>
+          <br /><br />
+          <label for="content">Content:</label>
+          <input
+            type="text"
+            name="content"
+            class="form-control content-box"
+            placeholder="Please enter your feedback"
+            size="300"
+            maxlength="400"
+          />
+          <br /><br />
+          <input type="submit" />
+          <input type="reset" />
+        </form>
       </div>
     </section>
-    <!-- ABOUT END -->
-    <!-- EXPERIENCE START -->
-    <section class="section experience" id="experience">
-      <div class="section-title">
-        <h2>my <span>experience</span></h2>
-      </div>
-      <div class="section-center experience-center">
-        <article class="experience">
-          <span class="experience-icon">
-            <a href="https://github.com/garyoconnor89" target="_blank"
-              ><img src="./logos/25231 (1).jpg" alt="Github" />
-            </a>
-          </span>
-          <div class="experience-info">
-            <h4 class="experience-title">Github</h4>
-            <p class="experience-text">
-              My Github page. Complete with repositories and previous projects,
-              including this website!
-            </p>
-          </div>
-        </article>
-        <article class="experience">
-          <span class="experience-icon">
-            <a
-              href="https://www.codewars.com/users/garyoconnor50"
-              target="_blank"
-              ><img src="./logos/codewars-512.webp" alt="Codewars" />
-            </a>
-          </span>
-          <div class="experience-info">
-            <h4 class="experience-title">Codewars</h4>
-            <p class="experience-text">
-              My Codewars page. Documenting katas completed to build some of my
-              core skills.
-            </p>
-          </div>
-        </article>
-        <article class="experience">
-          <span class="experience-icon">
-            <a href="https://codepen.io/garyoconnor89" target="_blank"
-              ><img src="./logos/Button-Fill-Black-Large.png" alt="Codepen"
-            /></a>
-          </span>
-          <div class="experience-info">
-            <h4 class="experience-title">Codepen</h4>
-            <p class="experience-text">
-              My Codepen page. Showing some of my early attempts to get to grips
-              with HTML and CSS.
-            </p>
-          </div>
-        </article>
-      </div>
-    </section>
-    <!-- EXPERIENCE END -->
+
+    <!-- CONTACT END -->
     <!-- FOOTER START -->
     <footer class="section footer">
       <ul class="footer-links">

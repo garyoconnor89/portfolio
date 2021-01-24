@@ -379,6 +379,125 @@ ABOUT END
  EXPERIENCE END
  =========
  */
+/* 
+ =========
+ PROJECT START
+ ========= */
+
+.projects {
+  background: var(--clr-grey-10);
+
+  text-align: center;
+  margin-bottom: 3rem;
+  position: relative;
+}
+
+.projects-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project {
+  background: var(--clr-primary-8);
+  border-radius: 15px;
+  padding: 4rem;
+  display: inline-block;
+  margin-bottom: 1.5rem;
+}
+
+.project-title {
+  background: var(--clr-primary-2);
+  border-radius: 10px;
+  padding: 2rem;
+}
+
+.project-title:hover {
+  transform: scale(1.15);
+}
+
+@media screen and (min-width: 1000px) {
+  .project-center {
+    display: inline-flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+}
+
+/* 
+ =========
+ PROJECT END
+ ========= */
+
+/* 
+ =========
+GALLERY START
+ =========
+ */
+
+.gallery-center {
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallery-img-container {
+  display: inline-block;
+  justify-content: flex-end;
+  border: 1px solid var(--clr-grey-8);
+  flex-direction: row;
+  align-content: stretch;
+  flex: 0 0 20%;
+  position: relative;
+}
+@media screen and (max-width: 700px) {
+  .gallery-center {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .gallery-img-container {
+    flex: 0 0 50%;
+  }
+}
+
+/* 
+ =========
+ GALLERY END
+ =========
+ */
+
+/* 
+ =========
+CONTACT START
+ =========
+ */
+
+.contact {
+  background: var(--clr-primary-5);
+}
+.contact-title {
+  color: var(--clr-white);
+}
+
+.contact-title p {
+  color: var(--clr-primary-8);
+}
+
+.form-control {
+  flex: 1 1 auto;
+  color: var(--clr-grey-5);
+  margin: 1rem 1rem;
+  padding: 0.5rem;
+  display: flex;
+}
+
+.content-box {
+  width: 70%;
+  height: 10vh;
+}
+
+/* 
+ =========
+ CONTACT END
+ =========
+ */
 
 /* 
  =========
